@@ -72,6 +72,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 999;
 }
 
 .hdr-wpr {
@@ -269,7 +270,7 @@ Hero Section
   z-index: -11;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1500px) {
   /* Hero Section */
   .hero-section {
     padding: 130px 0;

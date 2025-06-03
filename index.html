@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <!-- AOS CDN -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -85,6 +92,151 @@
       </div>
     </section>
 
+    <!-- Our Special Dishes -->
+    <section class="spcl-dish-sec">
+      <div class="container">
+        <div class="spcl-dish-top">
+          <h2>Our Special Dishes</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit,
+            eos! Labore, quam. Repellat, qui odit.
+          </p>
+        </div>
+        <!-- Dishes for Larger Screen -->
+        <div class="row spcl-dish">
+          <div class="col-25">
+            <div class="dish-card">
+              <div class="card-img">
+                <img src="./assets/ourspcldishes/dish-1 1.png" alt="" />
+              </div>
+              <h3>Lumpia With Sauce</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolores, modi.
+              </p>
+            </div>
+          </div>
+          <div class="col-25">
+            <div class="dish-card">
+              <div class="card-img">
+                <img src="./assets/ourspcldishes/dish-5.png" alt="" />
+              </div>
+              <h3>Fish and Veggie</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolores, modi.
+              </p>
+            </div>
+          </div>
+          <div class="col-25">
+            <div class="dish-card">
+              <div class="card-img">
+                <img src="./assets/ourspcldishes/dish-4.png" alt="" />
+              </div>
+              <h3>Tofu Chilli</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolores, modi.
+              </p>
+            </div>
+          </div>
+          <div class="col-25">
+            <div class="dish-card">
+              <div class="card-img">
+                <img src="./assets/ourspcldishes/dish-3 1.png" alt="" />
+              </div>
+              <h3>Egg and Cocumber</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolores, modi.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Dishes For Smaller Screen -->
+        <div class="swiper spcl-dish-sm">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="dish-card">
+                <div class="card-img">
+                  <img src="./assets/ourspcldishes/dish-1 1.png" alt="" />
+                </div>
+                <h3>Lumpia With Sauce</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores, modi.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="dish-card">
+                <div class="card-img">
+                  <img src="./assets/ourspcldishes/dish-5.png" alt="" />
+                </div>
+                <h3>Fish and Veggie</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores, modi.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="dish-card">
+                <div class="card-img">
+                  <img src="./assets/ourspcldishes/dish-3 1.png" alt="" />
+                </div>
+                <h3>Egg and Cocumber</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores, modi.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="dish-card">
+                <div class="card-img">
+                  <img src="./assets/ourspcldishes/dish-4.png" alt="" />
+                </div>
+                <h3>Tofu Chilli</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores, modi.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Special Dish Higlight -->
+        <div class="spcl-dish-hlt">
+          <div class="row">
+            <div class="col-6">
+              <div class="spcl-dish-hlt-img">
+                <img src="./assets/Group 13 (2).png" alt="" />
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="spcl-dish-cnt">
+                <h2 class="title2">Welcome to Our Restaurant</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <div class="dish-btn">
+                  <a href="" class="menu-btn">Menu</a>
+                  <a href="" class="bokatbl">Book a Table</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- JQuery CDN -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
@@ -92,8 +244,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <!-- AOS CDN -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script src="./JS/index.js"></script>
   </body>
 </html>
